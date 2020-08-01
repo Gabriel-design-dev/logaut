@@ -6,16 +6,18 @@
     <title>login Gabriel</title>
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/cabecera.css">
+  
 
 </head>
 <body>
-    <form action="home/home.html">
+
+    <form action="home/validar.php" method="POST">
     <h1>SISTEMA DE LOGIN GABRIEL</h1>
-    <p>Usuario<input type="text" placeholder="Ingrese El Nombre"></p><br>
-    <p>Contraseña<input type="password" placeholder="Ingrese la contraseña"></p><br>
+    <p>Usuario<input type="text" placeholder="Ingrese El Nombre" name="usuario"></p><br>
+    <p>Contraseña<input type="password" placeholder="Ingrese la contraseña" name="contraseña"></p><br>
     <input type="submit" value="Ingresar">
     
     </form>
-    
+
 </body>
 </html>
